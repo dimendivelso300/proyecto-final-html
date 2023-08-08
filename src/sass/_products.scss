@@ -1,0 +1,29 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+.product{
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    &__h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+                
+    }
+    &__h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+       
+    }
+    &__list-product{
+        display: flex;
+        text-decoration: none;
+        gap: 30PX;
+        
+    }
+}
+
