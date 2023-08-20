@@ -1,2 +1,10 @@
-@import './products';
-@import './variables';
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/placeholders';
+
+@import './base/normalize';
+@import './base/global';
+
+@import './components/component';
+@import './components/scroll-button';
+@import './components/main-page/modal';
